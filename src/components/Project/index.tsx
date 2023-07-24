@@ -32,7 +32,9 @@ export const Project = (): JSX.Element => {
 
       const json = await data.json();
 
-      setRepositories(json);
+      console.log(json)
+
+      setRepositories(json.filter((repo: any) => repo.topics.includes("on-portfolio")));
 
       return json;
     };
