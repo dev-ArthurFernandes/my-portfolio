@@ -49,17 +49,18 @@ export const Home = (): JSX.Element => {
             <Text as="h1" type="heading1" color="grey5">
             I{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                believe
               </Text>{" "}
-              creating and{" "}
+              that with{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                technology
               </Text>{" "}
-              projects
+              we can change the lives of many people
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              I've been studying programming since 2021. I started studying Python, focusing on OOP and structuring small service scripts. Later, I got to know Django, but I had a lot of trouble understanding HTTP expressions. So, I looked for a course that taught web development and, researching, I found Kenzie Academy Brasil, where I am now, finishing my full stack training.
+
+              With this training, I gained knowledge in frontend web development, using HTML, CSS, JavaScript, React.js, Node.js, Next.js and TypeScript, in addition to the use of APIs. In the backend, I acquired knowledge in TypeScript, Node.js, Express.js, TypeORM, Python, Django, Django REST Framework, PostgreSQL and SQLite3. We also learned how to structure SQL and NoSQL databases, create and read documentation, deploy APIs and web applications, as well as agile methodologies such as Scrum and good coding practices.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
