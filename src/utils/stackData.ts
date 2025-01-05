@@ -6,7 +6,8 @@ import {
   SiStyledcomponents,
   SiMongodb,
   SiDjango,
-  SiKotlin
+  SiKotlin,
+  SiSpringboot
 } from "react-icons/si";
 import { FaGit, FaPython } from "react-icons/fa";
 import {
@@ -16,6 +17,7 @@ import {
   FaJs,
   FaNode,
   FaReact,
+  FaJava,
 } from "react-icons/fa";
 
 export const stackData = [
@@ -54,6 +56,14 @@ export const stackData = [
     title: "Tailwind",
     img: SiTailwindcss
   },
+  {
+    title: "Java",
+    img: FaJava
+  },
+  {
+    title: "SpringBoot",
+    img: SiSpringboot
+  }
   { 
     title: "Docker", 
     img: FaDocker
