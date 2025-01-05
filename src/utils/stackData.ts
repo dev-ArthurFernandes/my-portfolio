@@ -63,7 +63,7 @@ export const stackData = [
   {
     title: "SpringBoot",
     img: SiSpringboot
-  }
+  },
   { 
     title: "Docker", 
     img: FaDocker
